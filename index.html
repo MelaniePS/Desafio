@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <span>a</span> <!-- Aquí podrías colocar una imagen en lugar de la "a" -->
+            </div>
+        </header>
+        <main>
+            <div class="text-container">
+                <textarea id="inputText" placeholder="Ingrese el texto aquí..."></textarea>
+                <div class="info-text">
+                    <p>🔍 Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="buttons">
+                    <button id="encryptBtn">Encriptar</button>
+                    <button id="decryptBtn">Desencriptar</button>
+                </div>
+            </div>
+            <div class="result-container">
+                <div id="outputWrapper">
+                    <img src="C:\Users\melan\OneDrive\Escritorio\Desafio\imagen.png" alt="Ningún mensaje fue encontrado" id="placeholderImg">
+                    <p id="placeholderText">Ningún mensaje fue encontrado</p>
+                </div>
+                <textarea id="outputText" readonly></textarea>
+                <button id="copyBtn">Copiar</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
